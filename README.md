@@ -28,7 +28,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+Hear Harvey. Love Harvey.
+
+```ruby
+Harvey.with_harvey(before: "starting", after: "done") { puts "I'm working...";
+sleep 100; puts "I'm done working" }
+```
+
 
 ## Development
 
