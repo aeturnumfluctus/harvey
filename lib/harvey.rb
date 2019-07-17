@@ -7,9 +7,9 @@ module Harvey
   class Error < StandardError; end
   # Your code goes here...
 
-  def self.harvey_speak(msg)
+  def self.harvey_speak(msg, speed: 100, pitch: 75)
     begin
-      `espeak '#{msg}'`
+      `espeak '#{msg}' -s #{speed} -p #{pitch}`
     rescue StandardError
       raise Error, 'Harvey no likey..'
     end
