@@ -6,7 +6,13 @@ module Harvey
   # Your code goes here...
 
   def self.harvey_speak(msg)
-    `espeak '#{msg}'`
+    begin
+      `espeak '#{msg}'`
+    rescue
+      raise "something went wrong"
+    end
+
+    :ok
   end
 
   def self.with_harvey(before: "", after: "", &block)
