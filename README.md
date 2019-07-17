@@ -6,6 +6,12 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
+Install `espeak`
+
+```
+sudo apt-get install espeak
+```
+
 Add this line to your application's Gemfile:
 
 ```ruby
