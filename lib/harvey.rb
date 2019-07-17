@@ -1,4 +1,6 @@
-require "harvey/version"
+# frozen_string_literal: true
+
+require 'harvey/version'
 
 # Harvey is dumb. Harvey says things.
 module Harvey
@@ -8,14 +10,14 @@ module Harvey
   def self.harvey_speak(msg)
     begin
       `espeak '#{msg}'`
-    rescue
-      raise "something went wrong"
+    rescue StandardError
+      raise 'something went wrong'
     end
 
     :ok
   end
 
-  def self.with_harvey(before: "", after: "", &block)
+  def self.with_harvey(before: '', after: '', &block)
     harvey_speak(before)
     block.call if block_given?
     harvey_speak(after)
