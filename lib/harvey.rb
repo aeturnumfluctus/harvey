@@ -11,7 +11,7 @@ module Harvey
     begin
       `espeak '#{msg}'`
     rescue StandardError
-      raise 'something went wrong'
+      raise Error, 'Harvey no likey..'
     end
 
     :ok
