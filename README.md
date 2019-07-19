@@ -51,5 +51,5 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 
 ## Other
 - [espeak docs](http://espeak.sourceforge.net/commands.html)
-- logo source: [link](https://pbs.twimg.com/profile_images/816009717965320192/KZrCjncG_400x400.jpg)
+- [logo source](https://pbs.twimg.com/profile_images/816009717965320192/KZrCjncG_400x400.jpg)
 
