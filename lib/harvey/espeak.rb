@@ -7,7 +7,7 @@ module Harvey
     def self.call(msg, **opts)
       espeak_opts = parse_espeak_opts(opts).map(&to_espeak_opt_str).join(' ')
 
-      `espeak '#{msg}' #{espeak_opts}`
+      `espeak "#{msg}" #{espeak_opts}`
     rescue StandardError
       raise EspeakExecutionError
     end
