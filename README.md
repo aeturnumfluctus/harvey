@@ -30,14 +30,16 @@ Or install it yourself as:
 
 ## Usage
 
-
 Hear Harvey. Love Harvey.
 
 ```ruby
-Harvey.with_harvey(before: "starting", after: "done") { puts "I'm working...";
-sleep 100; puts "I'm done working" }
+Harvey
+  .with_speech(before: "starting", after: "done") do
+    puts "about to work on something super intensive..";
+    sleep 100;
+    puts "whew.. so exhausted"
+  end
 ```
-
 
 ## Development
 
