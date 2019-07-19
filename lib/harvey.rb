@@ -17,7 +17,7 @@ module Harvey
     :ok
   end
 
-  def self.with_harvey(before: '', after: '', &block)
+  def self.with_harvey(before: '', after: '', pitch: nil, &block)
     harvey_speak(before)
     block.call if block_given?
     harvey_speak(after)
