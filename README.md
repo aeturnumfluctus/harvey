@@ -6,7 +6,7 @@ A simple wrapper around [eSpeak](http://espeak.sourceforge.net/).
 
 ## Installation
 
-Install `espeak` (Linux):
+Install eSpeak (Linux):
 
 ```
 $ sudo apt-get install espeak
