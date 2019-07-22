@@ -50,7 +50,8 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/harvey.
 
-## Other
+## Misc.
+
 - [espeak docs](http://espeak.sourceforge.net/commands.html)
 - [logo source](https://pbs.twimg.com/profile_images/816009717965320192/KZrCjncG_400x400.jpg)
 
