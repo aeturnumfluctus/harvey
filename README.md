@@ -34,10 +34,11 @@ Hear Harvey. Love Harvey.
 
 ```ruby
 Harvey
-  .with_speech(before: "starting", after: "done") do
-    puts "about to work on something super intensive..";
-    sleep 100;
-    puts "whew.. so exhausted"
+  .with_speech(
+    before: "About to work on something super intensive..",
+    after: "Whew.. that was exhausting"
+  ) do
+    sleep 100
   end
 ```
 
