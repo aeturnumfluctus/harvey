@@ -2,16 +2,14 @@
 
 # Harvey
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/harvey`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A simple wrapper around [eSpeak](http://espeak.sourceforge.net/).
 
 ## Installation
 
-Install `espeak`
+Install `espeak` (Linux):
 
 ```
-sudo apt-get install espeak
+$ sudo apt-get install espeak
 ```
 
 Add this line to your application's Gemfile:
