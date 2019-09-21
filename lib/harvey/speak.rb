@@ -3,7 +3,7 @@
 module Harvey
   module Speak
     def self.call(msg, _opts)
-      `speak "#{msg}"`
+      `say "#{msg}"`
     rescue StandardError
       raise EspeakExecutionError
     end
